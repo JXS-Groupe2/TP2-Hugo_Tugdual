@@ -1,0 +1,21 @@
+{
+  "name": "teaching-jxs-es6",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/gbecan/teaching-jxs-es6.git"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-npm-files": "^0.1.3",
+    "gulp-server-livereload": "^1.7.4",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "font-awesome": "^4.6.1"
+  }
+}
