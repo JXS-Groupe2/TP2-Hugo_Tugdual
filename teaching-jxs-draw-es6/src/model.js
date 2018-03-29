@@ -5,6 +5,13 @@ class Drawing {
 	constructor() {
 		this.formes = new Array();
 	}
+
+	redraw(ctx, canvas) {
+		this.paint(ctx, canvas);
+		this.formes.forEach(function(elem) {
+			elem.paint(ctx);
+		});
+	}
 }
 
 class Forme {
